@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/header-footer.css">
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/create.css">
+    <link rel="stylesheet" href="style/detail.css">
 </head>
 
 <body>
@@ -16,5 +17,7 @@
         <nav class="topbar-nav">
             <a href="index.php">Accueil</a>
             <a href="create.php">Réservation</a>
+            <a href="a-propos.php">A propos</a>
+            <a href="contact.php">Contact</a>
         </nav>
     </header>

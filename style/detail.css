@@ -1,0 +1,41 @@
+
+
+.billet-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.retour-link {
+    color: #fe7a15;
+    text-decoration: none;
+    margin-bottom: 50px;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.billet {
+    background-color: #6111bc;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.billet-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.billet-details {
+    list-style: none;
+    padding-left: 0;
+}
+
+.billet-details li {
+    margin-bottom: 10px;
+}
+
+.billet-details li:last-child {
+    margin-bottom: 0;
+}

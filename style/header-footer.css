@@ -32,9 +32,10 @@ a {
     color: grey;
     font-size: 30px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     text-align: center;
     align-items: center;
+    padding-top: 20px;
 }
 
 .topbar-nav {
@@ -143,3 +144,119 @@ footer {
     height: 200px;
   }
   
+
+  /* A propos*/ 
+  #about {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+}
+
+.logo-large {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-large img {
+    width: 200px; /* Ajustez la taille selon vos besoins */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #6111bc;
+    margin-bottom: 30px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* contact */
+#contact {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #6111bc;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #6111bc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #4c0876;
+}
+
+/* Styles pour le message de confirmation */
+.contact-form p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form a {
+    color: #6111bc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-form a:hover {
+    text-decoration: underline;
+}
