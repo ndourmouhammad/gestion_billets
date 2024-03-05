@@ -139,5 +139,7 @@ footer {
       opacity: 1;
     }
   }
-  
+  footer .logo img {
+    height: 200px;
+  }
   

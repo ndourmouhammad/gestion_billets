@@ -1,4 +1,5 @@
 <footer>
+    <div class="logo"><a href="index.php"><img src="img/Logo.png" alt=""></a></div>
 <div class="copyright">
         <p>&copy; 2024 Simplon Travel Agency. Tous droits réservés.</p>
     </div>

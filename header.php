@@ -7,6 +7,7 @@
     <title>simplon travel agency</title>
     <link rel="stylesheet" href="style/header-footer.css">
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/create.css">
 </head>
 
 <body>

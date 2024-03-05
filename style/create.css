@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  color: black;
+  margin: 0;
+  line-height: 1.3;
+}
+.banniere-create {
+  background-image: url(../img/reservation.jpg);
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir entièrement la zone de la bannière */
+
+  background-repeat: no-repeat; /* Empêche l'image de se répéter si elle est plus petite que la zone de la bannière */
+  width: 100%;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  color: #6111bc;
+  font-weight: bolder;
+  font-family: poppins;
+  font-size: xx-large;
+}
+
+.reservation-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FE7A15;
+    border-radius: 10px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    flex: 1 1 50%; /* Deux champs par ligne */
+    padding-right: 10px;
+}
+
+.form-group:last-child {
+    padding-right: 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6111BC;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #6111BC;
+    border-radius: 5px;
+}
+
+.form-row button {
+    background-color: #6111BC;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-row button:hover {
+    background-color: #4A0C92;
+}
