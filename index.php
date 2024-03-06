@@ -26,7 +26,7 @@ $billets = $statement->fetchAll(PDO::FETCH_OBJ);
                     <td><?= $billet->prenom ?> <?= $billet->nom ?></td>
                     <td><?= $billet->num_tel ?></td>
                     <td>
-                        <a href="edit.php?id=<?= $billet->id_billet ?>" class="btn btn-info">Modifier</a>
+                        <a href="update.php?id=<?= $billet->id_billet ?>" class="btn btn-info">Modifier</a>
                         <a onclick="return confirm('Confirmer la suppression')" href="delete.php?id=<?= $billet->id_billet ?>" class="btn btn-danger">Supprimer</a>
                         <a href="detail.php?id=<?= $billet->id_billet ?>" class="btn btn-info">Voir les détails</a>
                     </td>
