@@ -16,7 +16,7 @@ $req->execute();
 
     <?php while ($data2 = $req->fetch(PDO::FETCH_ASSOC)) { ?>
         <div class="billet">
-            <h1 class="billet-title">Le client <?= ucfirst($data2['prenom']); ?> <?= ucfirst($data2['nom']); ?></h1>
+            <h1 class="billet-title">Les détails du billet de  <?= ucfirst($data2['prenom']); ?> <?= ucfirst($data2['nom']); ?></h1>
             <ul class="billet-details">
                 <li>
                     Nom du client : <?= $data2['nom']; ?>
