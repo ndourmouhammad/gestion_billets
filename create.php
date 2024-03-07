@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php require('header.php') ?>
 
 <div class="banniere-create">
-<h1>Merci de votre intérêt pour notre service de réservation.</h1>
+<h1>Nous vous remercions de votre intérêt pour notre plateforme de réservation.</h1>
 </div>
 <div class="container">
     <h2>Ajouter un billet</h2>
@@ -60,67 +60,67 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="form-row">
         <div class="form-group">
             <label for="nom">Nom du client :</label>
-            <input type="text" id="nom" name="nom">
+            <input type="text" id="nom" name="nom" required>
         </div>
         <div class="form-group">
             <label for="prenom">Prénom du client :</label>
-            <input type="text" id="prenom" name="prenom">
+            <input type="text" id="prenom" name="prenom"required>
         </div>
     </div>
     <div class="form-row">
         <div class="form-group">
             <label for="prix">Prix :</label>
-            <input type="text" id="prix" name="prix">
+            <input type="text" id="prix" name="prix" required>
         </div>
         <div class="form-group">
             <label for="statut">Statut :</label>
-            <input type="text" id="statut" name="statut">
+            <input type="text" id="statut" name="statut" required>
         </div>
     </div>
     <div class="form-row">
         <div class="form-group">
             <label for="sexe">Sexe :</label>
-            <input type="text" id="sexe" name="sexe">
+            <input type="text" id="sexe" name="sexe" required>
         </div>
         <div class="form-group">
             <label for="dte_naissance">Date de naissance :</label>
-            <input type="date" id="dte_naissance" name="dte_naissance">
+            <input type="date" id="dte_naissance" name="dte_naissance" required>
         </div>
     </div>
     <div class="form-row">
         <div class="form-group">
             <label for="adresse_postale">Adresse postale :</label>
-            <input type="text" id="adresse_postale" name="adresse_postale">
+            <input type="text" id="adresse_postale" name="adresse_postale" required>
         </div>
         <div class="form-group">
             <label for="num_tel">Numéro téléphone :</label>
-            <input type="tel" id="num_tel" name="num_tel">
+            <input type="tel" id="num_tel" name="num_tel" required>
         </div>
     </div>
     <div class="form-row">
         <div class="form-group">
             <label for="adresse_email">Adresse email :</label>
-            <input type="email" id="adresse_email" name="adresse_email">
+            <input type="email" id="adresse_email" name="adresse_email" required>
         </div>
         <div class="form-group">
             <label for="date_reservation">Date de réservation :</label>
-            <input type="date" id="date_reservation" name="date_reservation">
+            <input type="date" id="date_reservation" name="date_reservation" required>
         </div>
     </div>
     <div class="form-row">
         <div class="form-group">
             <label for="heure_reservation">Heure de réservation :</label>
-            <input type="time" id="heure_reservation" name="heure_reservation">
+            <input type="time" id="heure_reservation" name="heure_reservation" required>
         </div>
         <div class="form-group">
             <label for="lieu_depart">Lieu de départ :</label>
-            <input type="text" id="lieu_depart" name="lieu_depart">
+            <input type="text" id="lieu_depart" name="lieu_depart" required>
         </div>
     </div>
     <div class="form-row">
         <div class="form-group">
             <label for="destination">Destination :</label>
-            <input type="text" id="destination" name="destination">
+            <input type="text" id="destination" name="destination" required>
         </div>
     </div>
     <div class="form-row">
