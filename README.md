@@ -13,7 +13,7 @@ L'organisation des fichiers dans ce projet suit une structure standard pour les 
 - **header.php** et **footer.php**: Fichiers inclus sur chaque page pour la mise en page commune de l'interface utilisateur.
 - **img/**: Répertoire contenant les images.
 - **style/**: Répertoire contenant les fichiers css.
-- **database.sql**: Fichier SQL contenant la structure de la base de données et éventuellement des données de test.
+- **db_billet.sql**: Fichier SQL contenant la structure de la base de données et éventuellement des données de test.
 - **create.php** , **delete.php** et **update.php** : Pour les fonctionnalités d'ajout, suppression et modification d'un billet.
 - **detail.php** : Pour afficher les détails de chaque de chaque billet.
 - **a-propos** et **contact.php**
